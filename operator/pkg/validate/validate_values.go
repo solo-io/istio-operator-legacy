@@ -19,8 +19,8 @@ import (
 
 	"google.golang.org/protobuf/types/known/structpb"
 
-	"github.com/jehawley/istio/operator/pkg/apis/istio/v1alpha1"
-	"github.com/jehawley/istio/operator/pkg/util"
+	"github.com/solo-io/istio-operator-legacy/operator/pkg/apis/istio/v1alpha1"
+	"github.com/solo-io/istio-operator-legacy/operator/pkg/util"
 )
 
 // DefaultValuesValidations maps a data path to a validation function.

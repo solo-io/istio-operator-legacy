@@ -22,7 +22,7 @@ import (
 	fakediscovery "k8s.io/client-go/discovery/fake"
 	"sigs.k8s.io/yaml"
 
-	pkgAPI "github.com/jehawley/istio/operator/pkg/apis/istio/v1alpha1"
+	pkgAPI "github.com/solo-io/istio-operator-legacy/operator/pkg/apis/istio/v1alpha1"
 	"istio.io/istio/pkg/kube"
 	"istio.io/istio/pkg/test/util/assert"
 )

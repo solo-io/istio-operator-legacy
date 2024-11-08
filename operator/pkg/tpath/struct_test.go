@@ -19,7 +19,7 @@ import (
 
 	"sigs.k8s.io/yaml"
 
-	"github.com/jehawley/istio/operator/pkg/util"
+	"github.com/solo-io/istio-operator-legacy/operator/pkg/util"
 )
 
 func TestGetFromStructPath(t *testing.T) {

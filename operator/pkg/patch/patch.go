@@ -102,11 +102,11 @@ import (
 	yaml2 "gopkg.in/yaml.v2"
 
 	"istio.io/api/123/operator/v1alpha1"
-	"github.com/jehawley/istio/operator/pkg/helm"
-	"github.com/jehawley/istio/operator/pkg/metrics"
-	"github.com/jehawley/istio/operator/pkg/object"
-	"github.com/jehawley/istio/operator/pkg/tpath"
-	"github.com/jehawley/istio/operator/pkg/util"
+	"github.com/solo-io/istio-operator-legacy/operator/pkg/helm"
+	"github.com/solo-io/istio-operator-legacy/operator/pkg/metrics"
+	"github.com/solo-io/istio-operator-legacy/operator/pkg/object"
+	"github.com/solo-io/istio-operator-legacy/operator/pkg/tpath"
+	"github.com/solo-io/istio-operator-legacy/operator/pkg/util"
 	"istio.io/istio/pkg/log"
 )
 

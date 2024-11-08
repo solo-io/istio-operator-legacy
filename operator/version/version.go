@@ -17,7 +17,7 @@ package version
 import (
 	"time"
 
-	pkgversion "github.com/jehawley/istio/operator/pkg/version"
+	pkgversion "github.com/solo-io/istio-operator-legacy/operator/pkg/version"
 	buildversion "istio.io/istio/pkg/version"
 )
 

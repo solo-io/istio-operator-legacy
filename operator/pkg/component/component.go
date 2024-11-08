@@ -26,12 +26,12 @@ import (
 	"sigs.k8s.io/yaml"
 
 	"istio.io/api/123/operator/v1alpha1"
-	"github.com/jehawley/istio/operator/pkg/helm"
-	"github.com/jehawley/istio/operator/pkg/metrics"
-	"github.com/jehawley/istio/operator/pkg/name"
-	"github.com/jehawley/istio/operator/pkg/patch"
-	"github.com/jehawley/istio/operator/pkg/tpath"
-	"github.com/jehawley/istio/operator/pkg/translate"
+	"github.com/solo-io/istio-operator-legacy/operator/pkg/helm"
+	"github.com/solo-io/istio-operator-legacy/operator/pkg/metrics"
+	"github.com/solo-io/istio-operator-legacy/operator/pkg/name"
+	"github.com/solo-io/istio-operator-legacy/operator/pkg/patch"
+	"github.com/solo-io/istio-operator-legacy/operator/pkg/tpath"
+	"github.com/solo-io/istio-operator-legacy/operator/pkg/translate"
 	"istio.io/istio/pkg/log"
 	"istio.io/istio/pkg/util/sets"
 )

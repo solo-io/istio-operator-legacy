@@ -25,7 +25,7 @@ import (
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 	k8syaml "k8s.io/apimachinery/pkg/util/yaml"
 
-	"github.com/jehawley/istio/operator/pkg/util"
+	"github.com/solo-io/istio-operator-legacy/operator/pkg/util"
 	"istio.io/istio/pkg/test/util/assert"
 )
 
