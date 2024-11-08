@@ -19,9 +19,9 @@ import (
 	"strings"
 
 	"istio.io/api/123/operator/v1alpha1"
-	iop "github.com/jehawley/istio/operator/pkg/apis/istio/v1alpha1"
-	"github.com/jehawley/istio/operator/pkg/helm"
-	"github.com/jehawley/istio/operator/pkg/tpath"
+	iop "github.com/solo.io/istio-operator-legacy/operator/pkg/apis/istio/v1alpha1"
+	"github.com/solo.io/istio-operator-legacy/operator/pkg/helm"
+	"github.com/solo.io/istio-operator-legacy/operator/pkg/tpath"
 )
 
 // Kubernetes Kind strings.

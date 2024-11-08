@@ -21,11 +21,11 @@ import (
 	"k8s.io/apimachinery/pkg/version"
 
 	"istio.io/api/123/operator/v1alpha1"
-	iop "github.com/jehawley/istio/operator/pkg/apis/istio/v1alpha1"
-	"github.com/jehawley/istio/operator/pkg/component"
-	"github.com/jehawley/istio/operator/pkg/name"
-	"github.com/jehawley/istio/operator/pkg/translate"
-	"github.com/jehawley/istio/operator/pkg/util"
+	iop "github.com/solo.io/istio-operator-legacy/operator/pkg/apis/istio/v1alpha1"
+	"github.com/solo.io/istio-operator-legacy/operator/pkg/component"
+	"github.com/solo.io/istio-operator-legacy/operator/pkg/name"
+	"github.com/solo.io/istio-operator-legacy/operator/pkg/translate"
+	"github.com/solo.io/istio-operator-legacy/operator/pkg/util"
 	"istio.io/istio/pkg/util/sets"
 )
 

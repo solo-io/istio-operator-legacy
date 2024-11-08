@@ -30,7 +30,7 @@ import (
 
 	"istio.io/istio/istioctl/pkg/install/k8sversion"
 	"istio.io/istio/manifests"
-	"github.com/jehawley/istio/operator/pkg/util"
+	"github.com/solo.io/istio-operator-legacy/operator/pkg/util"
 	"istio.io/istio/pkg/log"
 )
 

@@ -22,7 +22,7 @@ import (
 	"gopkg.in/yaml.v2"
 	yaml2 "sigs.k8s.io/yaml"
 
-	"github.com/jehawley/istio/operator/pkg/util"
+	"github.com/solo.io/istio-operator-legacy/operator/pkg/util"
 )
 
 // AddSpecRoot adds a root node called "spec" to the given tree and returns the resulting tree.

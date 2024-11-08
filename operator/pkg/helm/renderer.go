@@ -26,7 +26,7 @@ import (
 	"k8s.io/apimachinery/pkg/version"
 
 	"istio.io/istio/manifests"
-	"github.com/jehawley/istio/operator/pkg/util"
+	"github.com/solo.io/istio-operator-legacy/operator/pkg/util"
 )
 
 const (

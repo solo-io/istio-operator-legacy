@@ -23,8 +23,8 @@ import (
 	"sigs.k8s.io/yaml"
 
 	v1alpha12 "istio.io/api/123/operator/v1alpha1"
-	"github.com/jehawley/istio/operator/pkg/apis/istio"
-	install "github.com/jehawley/istio/operator/pkg/apis/istio/v1alpha1"
+	"github.com/solo.io/istio-operator-legacy/operator/pkg/apis/istio"
+	install "github.com/solo.io/istio-operator-legacy/operator/pkg/apis/istio/v1alpha1"
 )
 
 // This is to verify that certain proto types handle marshal and unmarshal properly
