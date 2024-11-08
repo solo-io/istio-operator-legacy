@@ -33,7 +33,7 @@ import (
 	"gopkg.in/yaml.v2"
 	yaml2 "sigs.k8s.io/yaml"
 
-	"github.com/solo.io/istio-operator-legacy/operator/pkg/util"
+	"github.com/jehawley/istio/operator/pkg/util"
 	"istio.io/istio/pkg/log"
 )
 

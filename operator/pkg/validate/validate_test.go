@@ -18,7 +18,7 @@ import (
 	"testing"
 
 	"istio.io/api/123/operator/v1alpha1"
-	"github.com/solo.io/istio-operator-legacy/operator/pkg/util"
+	"github.com/jehawley/istio/operator/pkg/util"
 )
 
 func TestValidate(t *testing.T) {

@@ -24,7 +24,7 @@ import (
 
 	"google.golang.org/protobuf/types/known/structpb"
 
-	"github.com/solo.io/istio-operator-legacy/operator/pkg/util"
+	"github.com/jehawley/istio/operator/pkg/util"
 )
 
 // GetFromStructPath returns the value at path from the given node, or false if the path does not exist.

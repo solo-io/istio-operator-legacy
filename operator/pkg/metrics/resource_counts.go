@@ -19,7 +19,7 @@ import (
 
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	"github.com/solo.io/istio-operator-legacy/operator/pkg/util"
+	"github.com/jehawley/istio/operator/pkg/util"
 )
 
 // resourceCounts keeps track of the number of resources owned by each

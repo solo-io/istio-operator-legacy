@@ -19,7 +19,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/solo.io/istio-operator-legacy/operator/pkg/name"
+	"github.com/jehawley/istio/operator/pkg/name"
 )
 
 func TestProgressLog(t *testing.T) {

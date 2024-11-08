@@ -1,4 +1,4 @@
-module github.com/solo.io/istio-operator-legacy
+module github.com/jehawley/istio
 
 go 1.22.0
 

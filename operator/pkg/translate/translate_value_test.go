@@ -19,9 +19,9 @@ import (
 
 	"sigs.k8s.io/yaml"
 
-	"github.com/solo.io/istio-operator-legacy/operator/pkg/apis/istio"
-	"github.com/solo.io/istio-operator-legacy/operator/pkg/apis/istio/v1alpha1"
-	"github.com/solo.io/istio-operator-legacy/operator/pkg/util"
+	"github.com/jehawley/istio/operator/pkg/apis/istio"
+	"github.com/jehawley/istio/operator/pkg/apis/istio/v1alpha1"
+	"github.com/jehawley/istio/operator/pkg/util"
 	"istio.io/istio/pkg/util/protomarshal"
 )
 

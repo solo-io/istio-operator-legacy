@@ -25,9 +25,9 @@ import (
 	"k8s.io/apimachinery/pkg/util/intstr"
 
 	"istio.io/api/123/operator/v1alpha1"
-	valuesv1alpha1 "github.com/solo.io/istio-operator-legacy/operator/pkg/apis/istio/v1alpha1"
-	"github.com/solo.io/istio-operator-legacy/operator/pkg/tpath"
-	"github.com/solo.io/istio-operator-legacy/operator/pkg/util"
+	valuesv1alpha1 "github.com/jehawley/istio/operator/pkg/apis/istio/v1alpha1"
+	"github.com/jehawley/istio/operator/pkg/tpath"
+	"github.com/jehawley/istio/operator/pkg/util"
 )
 
 const (

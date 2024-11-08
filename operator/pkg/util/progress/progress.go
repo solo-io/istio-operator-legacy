@@ -23,7 +23,7 @@ import (
 
 	"github.com/cheggaaa/pb/v3"
 
-	"github.com/solo.io/istio-operator-legacy/operator/pkg/name"
+	"github.com/jehawley/istio/operator/pkg/name"
 )
 
 type InstallState int

@@ -32,11 +32,11 @@ import (
 	k8syaml "k8s.io/apimachinery/pkg/util/yaml"
 	"sigs.k8s.io/yaml"
 
-	"github.com/solo.io/istio-operator-legacy/operator/pkg/apis/istio/v1alpha1"
-	"github.com/solo.io/istio-operator-legacy/operator/pkg/helm"
-	names "github.com/solo.io/istio-operator-legacy/operator/pkg/name"
-	"github.com/solo.io/istio-operator-legacy/operator/pkg/tpath"
-	"github.com/solo.io/istio-operator-legacy/operator/pkg/util"
+	"github.com/jehawley/istio/operator/pkg/apis/istio/v1alpha1"
+	"github.com/jehawley/istio/operator/pkg/helm"
+	names "github.com/jehawley/istio/operator/pkg/name"
+	"github.com/jehawley/istio/operator/pkg/tpath"
+	"github.com/jehawley/istio/operator/pkg/util"
 	"istio.io/istio/pkg/log"
 )
 

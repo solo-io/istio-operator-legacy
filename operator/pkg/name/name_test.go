@@ -21,8 +21,8 @@ import (
 	"sigs.k8s.io/yaml"
 
 	"istio.io/api/123/operator/v1alpha1"
-	"github.com/solo.io/istio-operator-legacy/operator/pkg/tpath"
-	"github.com/solo.io/istio-operator-legacy/operator/pkg/util"
+	"github.com/jehawley/istio/operator/pkg/tpath"
+	"github.com/jehawley/istio/operator/pkg/util"
 )
 
 func TestGetFromTreePath(t *testing.T) {
