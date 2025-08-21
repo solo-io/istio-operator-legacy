@@ -99,14 +99,14 @@ import (
 	"fmt"
 	"strings"
 
-	yaml2 "gopkg.in/yaml.v2"
+	yaml2 "gopkg.in/yaml.v3"
 
-	"istio.io/api/123/operator/v1alpha1"
 	"github.com/solo-io/istio-operator-legacy/operator/pkg/helm"
 	"github.com/solo-io/istio-operator-legacy/operator/pkg/metrics"
 	"github.com/solo-io/istio-operator-legacy/operator/pkg/object"
 	"github.com/solo-io/istio-operator-legacy/operator/pkg/tpath"
 	"github.com/solo-io/istio-operator-legacy/operator/pkg/util"
+	"istio.io/api/123/operator/v1alpha1"
 	"istio.io/istio/pkg/log"
 )
 

@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"testing"
 
-	"gopkg.in/yaml.v2"
+	"gopkg.in/yaml.v3"
 
 	"istio.io/istio/pkg/test/util/assert"
 )

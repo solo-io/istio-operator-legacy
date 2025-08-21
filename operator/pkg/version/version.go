@@ -20,7 +20,7 @@ import (
 	"strings"
 
 	goversion "github.com/hashicorp/go-version"
-	"gopkg.in/yaml.v2"
+	"gopkg.in/yaml.v3"
 )
 
 const (

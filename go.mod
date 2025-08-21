@@ -10,8 +10,8 @@ require (
 	github.com/hashicorp/go-version v1.7.0
 	github.com/kylelemons/godebug v1.1.0
 	github.com/prometheus/prometheus v0.54.1
-	google.golang.org/protobuf v1.36.5
-	gopkg.in/yaml.v2 v2.4.0
+	google.golang.org/protobuf v1.36.8
+	gopkg.in/yaml.v3 v3.0.1
 	helm.sh/helm/v3 v3.18.4
 	istio.io/api v1.24.0
 	istio.io/api/123 v0.0.0-00010101000000-000000000000
@@ -125,7 +125,6 @@ require (
 	google.golang.org/grpc v1.68.1 // indirect
 	gopkg.in/evanphx/json-patch.v4 v4.12.0 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
-	gopkg.in/yaml.v3 v3.0.1 // indirect
 	istio.io/client-go v1.24.0-rc.0.0.20241101201152-acb34243979a // indirect
 	k8s.io/apiextensions-apiserver v0.33.2 // indirect
 	k8s.io/apiserver v0.33.2 // indirect
@@ -140,10 +139,9 @@ require (
 )
 
 replace (
+	// Client-go does not handle different versions of mergo due to some breaking changes - use the matching version
+	github.com/imdario/mergo => github.com/imdario/mergo v0.3.5
 	// This is necessary while we still depend on the IstioOperator and related apis, which were removed in 1.24
 	// This can be removed once we drop ILM v2 support in GME.
 	istio.io/api/123 => istio.io/api v1.23.3
-
-	// Client-go does not handle different versions of mergo due to some breaking changes - use the matching version
-	github.com/imdario/mergo => github.com/imdario/mergo v0.3.5
 )
